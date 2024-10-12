@@ -12,4 +12,29 @@ body{
     background-color: rgb(15, 1, 29);
     color: #fff;
     display: inline-block;
+    font-weight: 700;
+    width: 750px;
+    text-align: center;
+}
+@media (min-width:320px) and (max-width:575px) {
+    body{
+        width: auto;
+    }
+    #clock{
+        font-size: 38px;  
+        font-weight: 500;
+        width: auto;
+    }
+    
+}
+@media (min-width:576px) and (max-width:767px) {
+    body{
+        width: auto;
+    }
+    #clock{
+        font-size: 60px;  
+        font-weight: 600;
+        width: auto;
+    }
+    
 }
